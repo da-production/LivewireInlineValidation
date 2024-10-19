@@ -24,8 +24,9 @@
     },
     "require": {
         "php": "^7.4|^8.0",
-        "livewire/livewire": "^2.0"
+        "livewire/livewire": "^2.0|^3.0"
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
 
