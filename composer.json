@@ -1,0 +1,31 @@
+{
+    "name": "ami.mebrouki/livewire-inline-validation",
+    "description": "A Livewire plugin for inline validation.",
+    "keywords": ["livewire", "validation", "inline validation", "laravel"],
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AmiMebrouki\\LivewireInlineValidation\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mebrouki Amine",
+            "email": "enimablack@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AmiMebrouki\\LivewireInlineValidation\\InlineValidationServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^7.4|^8.0",
+        "livewire/livewire": "^2.0"
+    },
+    "minimum-stability": "stable"
+}
+
